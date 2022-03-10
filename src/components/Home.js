@@ -1,5 +1,4 @@
 import React from "react"
-import image from "../images/lanza.webp"
 
 export default function Home() {
     return (
@@ -7,7 +6,7 @@ export default function Home() {
             <section>
                 <div className="flex">
                     <h1 className="text-white">Crescentalism</h1>
-                    <img src={image} className="h-32" alt="hola"/>
+                    <img src={""} className="h-32" alt="hola"/>
                 </div>
             </section>
         </main>
