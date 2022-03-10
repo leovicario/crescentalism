@@ -4,7 +4,7 @@ import logo from "../images/logocrescental.svg"
 
 export default function Footer() {
     return (
-        <header className="bg-black">
+        <div className="bg-black w-full">
             <div className="container mx-auto flex justify-between">
                 <nav className="py-6">
                         <a href="/"><img className="w-64 py-3" alt="logo" src={logo}/></a>
@@ -15,6 +15,7 @@ export default function Footer() {
                     <SocialIcon url="https://linkedin.com/in/leovicario" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width:35}}/>
                 </div>
             </div>
-        </header>
+        </div>
+    
     )
 }

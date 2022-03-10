@@ -5,7 +5,7 @@ export default function Home() {
         <main className="bg-gray-800 p-10">
             <section>
                 <div className="flex">
-                    <h1 className="text-white">Crescentalism</h1>
+                    <h1 className="text-white">Crescental</h1>
                     <img src={""} className="h-32" alt="hola"/>
                 </div>
             </section>
